@@ -32,13 +32,21 @@ h2 {
 
 .container {
   border: 2px solid Snow;
+  display: flex;
 }
 
 .week {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
 }
 
 .row {
   min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .square {
@@ -66,6 +74,8 @@ h2 {
 
 .reminders {
   background-color: Khaki;
+  display: flex;
+  flex-grow: 2;
 }
 
 .reminders h3 {
